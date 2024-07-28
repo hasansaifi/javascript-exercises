@@ -9,7 +9,7 @@ const sumAll = function(numOne, numTwo) {
         
         for(i; minNum != i ; i--){
             sum = sum + (i -1);
-            console.log(sum);
+            //console.log(sum);
         }
     }else{sum = "ERROR"}
     
