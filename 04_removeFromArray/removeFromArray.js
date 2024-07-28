@@ -4,7 +4,7 @@ const removeFromArray = function(...theArgs) {
     let i = initArray.length;
 
     
-    for (const arg of array) {
+    for (const arg of theArgs) {
         i--;
         let removeVal = initArray[i];
 
@@ -26,6 +26,6 @@ const removeFromArray = function(...theArgs) {
     return array;
 }; 
 
-removeFromArray([1, 2, 2, 3], 2);
+removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
 // Do not edit below this line
 module.exports = removeFromArray;
