@@ -18,12 +18,22 @@ const multiply = function(array) {
 
 };
 
-const power = function() {
+const power = function(numOne, numTwo) {
+  return Math.pow(numOne, numTwo);
 	
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	function factorial(n) { 
+    let ans = 1; 
+    
+    if(n === 0)
+        return 1;
+    for (let i = 2; i <= n; i++) 
+        ans = ans * i; 
+    return ans;}
+  
+  return factorial(num);
 };
 
 // Do not edit below this line
