@@ -1,4 +1,8 @@
 const fibonacci = function(num) {
+    if (num < 0){
+        return "OOPS"
+    }
+    
     let i = parseInt(num);
     let fabonacci = [0,1];
     for(i;i >= 0; i--){
